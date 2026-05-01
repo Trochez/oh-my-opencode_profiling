@@ -1,0 +1,7 @@
+{
+  {'name': 'opencode-profile-tool', 'version': '1.0.0', 'description': 'OpenCode Profile Tool - installs and manages OpenCode session profiling', 'main': 'index.js', 'bin': {'opencode-profile': './bin/install.js'}, 'scripts': {'postinstall': 'node ./bin/install.js'}, 'keywords': ['openoffice', 'profile', 'metrics', 'monitoring'], 'author': 'OpenCode Community', 'license': 'MIT', 'repository': {'url': 'git@github.com:Trochez/oh-my-opencode_profiling.git'}}
+    "@nivo/core": "^0.99.0",
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1"
+  }
+}
